@@ -46,11 +46,18 @@ for i in range(0,len(test["text"])):
 test_data_features = vectorizer.transform(test_records)
 np.asarray(test_data_features)
 
+# use predict to print category prediction
 predictions = clf.predict(test_data_features)
 
-prediction_list = pd.DataFrame( data={"id":test["id"], "category":predictions} )
+# use predict_proba to show probabilities for each category
+predictions = clf.predict_proba(test_data_features)
 
-print(1 - float(sum(abs(prediction_list['category'] - test['category']))) / float(len(test['category'])))
+# print predictions 
+f = open("predictions.tsv", "w")
 
+for i in range(0, len(predictions)):
+    strout = test_records[i] + "\t" 
+    strout += str(predictions[i])
+    f.write(strout + "\n")
 
 
