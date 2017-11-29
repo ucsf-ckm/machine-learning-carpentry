@@ -9,6 +9,10 @@ The code samples and tutorials focus on using Python to preparing data, calling 
 As an example case, we'll train a machine learning algorithm to distingish between positive and a negative movie reviews, using sentiment data from:
 http://www.cs.cornell.edu/home/llee/papers/sentiment.home.html
 
+### Installation Note
+This repository is designed to be run through Jupyter Notebook.  Workshop participants can check this repo out and run jupyter notebook at the top level of the directory to access and run this code. 
+
+Participants will need to instal scikit-learn to run the code in the workbooks.  
 
 ### [Introduction](Overview.ipynb)
 A quick introduction, text classification and machine in a data carpentry context. 
