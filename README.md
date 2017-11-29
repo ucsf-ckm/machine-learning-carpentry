@@ -13,19 +13,19 @@ http://www.cs.cornell.edu/home/llee/papers/sentiment.home.html
 ### [Introduction](Overview.ipynb)
 A quick introduction, text classification and machine in a data carpentry context. 
 
-### Bag Of Words
+### [Bag Of Words](BagOfWords.ipynb)
 A jupyter notebook demonstrating how to use python and scikit-learn to convert document text into "word vectors" that can be used to train a machine learning model. Specifically, we'll show how to decompose a movie review into a "word vector", a data structure that holds the term frequencies for a particular record.
 
-### Machine Learning - Overview
+### [Machine Learning - Overview](supervised_learning_visuals)
 A jupyter notebook containing slides, a set of graphical representations of Naive Bayes, Logistic Regression, Support Vector Machine, Neural Network, and Random Forest. These slides are not intended as a deep dive into machine learning - instead, they provide a visual representation of each algorithm for a high level overview.
 
-### Machine Learning - Code
+### [Machine Learning - Code](MachineLearning.ipynb)
 "Machine Learning", a jupyter notebook that demonstrates how to use python and scikit-learn to train, run, and interpret results from a machine learning model. The programming approach will be illustrated through Random Forest, with an emphasis on preparing data and using the API. The notebook will also show how to swap in a different machine learning model with minimal programming changes. Specifically, we'll show how to use a trained machine learning model to classify movie reviews based on the term frequencies from that review.
 
-### Further Reading
+### [Further Reading](recommended-reading.ipynb)
 Links to further learning material, blogs, code samples, tutorials, and documentation.
 
-### Classifier.py
+### [Classifier.py](Classifier.py)
 A python script that provides a more compact and succinct program to build, train, run, and read output from a machine learning model.
 
 ### Data Preparation Files (createfile.py and shufflefile.py)
