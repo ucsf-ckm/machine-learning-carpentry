@@ -9,11 +9,9 @@ The code samples and tutorials focus on using Python to preparing data, calling 
 As an example case, we'll train a machine learning algorithm to distingish between positive and a negative movie reviews, using sentiment data from:
 http://www.cs.cornell.edu/home/llee/papers/sentiment.home.html
 
-### Overview
-This repository contains a series off files used to demonstrate how to classify text using different supervised learning algorithms from scikit-learn. They are listed below in the order they would be used in a workshop or short course.
 
-### Introduction
-A quick introduction, putting text classification with machine learning into a data carpentry and library carpentry context. A short overview of that the course will cover.
+### [Introduction](Overview.ipynb)
+A quick introduction, text classification and machine in a data carpentry context. 
 
 ### Bag Of Words
 A jupyter notebook demonstrating how to use python and scikit-learn to convert document text into "word vectors" that can be used to train a machine learning model. Specifically, we'll show how to decompose a movie review into a "word vector", a data structure that holds the term frequencies for a particular record.
