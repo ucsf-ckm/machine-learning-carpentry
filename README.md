@@ -6,7 +6,7 @@ This repository contains teaching materials for a workshop on using machine lear
 
 The code samples and tutorials focus on using Python to preparing data, calling the machine learning (scikit-learn) api, and writing and interpreting results. We will review the various machine learning algorithms at a very high level, but we won't get into the details or mathematics of these algorithms. Note that these examples will use Python 3 and Jupyter Notebooks for most of the tutorials.
 
-As an example case, we'll train a machine learning algorithm to distingish between positive and a negative movie reviews, using sentiment data from:
+As an example case, we'll train a machine learning algorithm to distinguish between positive and a negative movie reviews, using sentiment data from:
 http://www.cs.cornell.edu/home/llee/papers/sentiment.home.html
 
 ### Installation Note
